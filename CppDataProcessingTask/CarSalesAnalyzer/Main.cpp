@@ -1,6 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
-#define NOMINMAX
-
 #include <iostream>
 #include <map>
 #include "DataProcessor.h"
@@ -70,4 +67,5 @@ int main()
 	ComputeEverythingInSinglePass(filename, regionRevenue);
 	getchar(); // Pause before exit
 	return 0;
+
 }
